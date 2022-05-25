@@ -20,17 +20,16 @@ namespace _2_Tema_1_uzdevums
             Console.WriteLine("   {0}  |  {1}  |  {2}   ", pos[7], pos[8], pos[9]);
         }
 
-      
+
         static void Main(string[] args)
         {
             string name1 = "", name2 = "";
-            int choice = 0, turn = 1, score1 = 0, score2 = 0;
-            bool winFlag = false, playing = true, correctInput = false;
+           
 
-            Console.WriteLine("Kāds ir tavs vārds - player 1?");
+            Console.WriteLine("Kāds ir tavs vārds - Spēlētāj 1?");
             name1 = Console.ReadLine();
             Console.WriteLine($"Sveiks player1: {name1}!");
-            Console.WriteLine("Kāds ir tavs vārds - player 2?");
+            Console.WriteLine("Kāds ir tavs vārds - Spēlētāj 2?");
             name2 = Console.ReadLine();
             Console.WriteLine($"Sveiks player2: {name2}!"); ;
             Console.WriteLine($"Tātad. {name1} ir O un {name2} ir X.");
@@ -42,7 +41,12 @@ namespace _2_Tema_1_uzdevums
             Console.WriteLine();
             DrawBoard();
             Console.WriteLine("");
-        }
 
+
+            //int choice = 0, turn = 1, score1 = 0, score2 = 0;
+            //bool winFlag = false, playing = true, correctInput = false;
+        }
     }
 }
+
+
